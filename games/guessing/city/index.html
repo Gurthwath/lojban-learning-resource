@@ -1,0 +1,57 @@
+<html>
+<head>
+	<title>Lobjan Learning Resources - Guessing - The City</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+	<link href="https://fonts.googleapis.com/css?family=Spectral+SC|Ubuntu+Condensed|Wire+One" rel="stylesheet">
+	<link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-top navbar-fixed-top">
+		<div class="container">
+			<a class="nav-link" href="/">Home</a>
+			<a class="nav-link" href="/about">About Lojban</a>
+			<a class="nav-link" href="/flashcards">Lojban Flashcards</a>
+			<a class="nav-link" href="/games">Lojban Games</a>
+		</div>
+	</nav>
+	
+	<nav class="navbar navbar-default navbar-bottom navbar-fixed-bottom">
+	  <div class="container">
+		<span class="nav navbar-nav navbar-left">
+			<span>Made by: Andrew Kilburn</span>
+		</span>
+		<span class="nav navbar-nav navbar-right">
+			<span><a href = "/documentation">Documentation</a></span> - 
+			<span><a href = "/sitemap">Sitemap</a></span>
+		</span>
+	  </div>
+	</nav>
+
+	<div class="container">
+		<h1 align="center">Guessing Games</h1>
+		
+		<div class="horizontal-break"></div>
+		
+		<h3 align="center">la tcadu - The City</h3>
+		<div class="container" id = "guessing-container">
+			<div id = "guessing-word"></div>
+			<input id = "guess" />
+			<button id = "submit">Go</button>
+		</div>
+		<div id = "bar-counter">
+			<div id = "bar-counter-lower"></div>
+			<div id = "bar-counter-mid"></div>
+			<div id = "bar-counter-upper"></div>
+		</div>
+		<br /><br />
+		<p id = "counter" align = "center"></p>
+		<p id = "ln-swap">Switch languages</p>
+		
+	</div>
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src = "/data/city.js"></script>
+	<script src = "/guessing.js"></script>
+</body>
+</html>
